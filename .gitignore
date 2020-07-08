@@ -2,12 +2,12 @@
 *.iml
 *.csv
 .DS_Store
-target/
+#target/
 *.swp
 *.swo
 *.log
 logs/
-/target
+#/target
 .project
 .vagrant
 .classpath
