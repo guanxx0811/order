@@ -291,6 +291,7 @@ public class OrderEntryControllor {
             }
         }
         model.addAttribute("categories", categoryManager.getAllCategories());
+        System.out.println("123");
         return "jsp/categoryList.jsp";
     }
 
