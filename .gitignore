@@ -1,11 +1,14 @@
+
 .idea/
 *.iml
 *.csv
 .DS_Store
+target/
 *.swp
 *.swo
 *.log
 logs/
+/target
 .project
 .vagrant
 .classpath
