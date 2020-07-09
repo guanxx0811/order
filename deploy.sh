@@ -35,7 +35,7 @@ rm -f $TOMCAT_APP_PATH/webapps/order.war
 cp $PROJ_PATH/order/target/order.war $TOMCAT_APP_PATH/webapps/
 
 cd $TOMCAT_APP_PATH/webapps/
-echo "$TOMCAT_APP_PATH/webapps/"
+echo "111$TOMCAT_APP_PATH/webapps/111"
 mv order.war ROOT.war
 
 # 启动Tomcat
